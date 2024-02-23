@@ -1,0 +1,35 @@
+.sidebar{
+    flex: 1;
+    background-color: black;
+    min-height: 100vh;
+    position: sticky;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h2{
+        color: white,;
+    }
+   .sidebar-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    button{
+        padding: 15px 10px;
+        border: 1px solid rgb(46, 45, 54);
+         background-color: transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(46, 45, 54);
+        }
+    }
+    .sidebar-link{
+        color: wheat;
+        font-size:20px;
+        text-decoration: none;
+        border-radius: 10px;
+    
+        }
+   }
+}
